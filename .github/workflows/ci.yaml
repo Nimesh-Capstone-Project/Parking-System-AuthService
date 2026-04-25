@@ -10,7 +10,7 @@ on:
 
 jobs:
   ci:
-    uses: Nimesh-Capstone-Project/Parking-System/.github/workflows/reusable-ci.yaml@main
+    uses: Nimesh-Capstone-Project/Parking-System/.github/workflows/reusable-ci.yaml@master
     with:
       release_tag: ${{ github.sha }}
       image_name: auth-service
