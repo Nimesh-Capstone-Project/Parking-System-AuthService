@@ -24,5 +24,6 @@ jobs:
       image_name: auth-service
       dockerfile_path: .
       node_version: "20"
+      sonar_key: "Nimesh-Capstone-Project_Parking-System-AuthService_38163bf1-a4fc-44fd-8116-772f4ea206f6"
       snyk_severity_threshold: "high"
     secrets: inherit
